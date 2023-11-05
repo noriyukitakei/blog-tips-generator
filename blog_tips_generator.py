@@ -232,7 +232,7 @@ tech-lab.sios.jp/archives/36497
 """
 
     FEW_SHOTS_ASSISTANT_02 = """
-アレクサをカスタマイズし、OTRSの未処理のチケット数を教えてもらう方法を学べます。詳しくはこのブログを見てね! → tech-lab.sios.jp/archives/8122 #Azure #駆け出しエンジニアと繋がりたい
+アレクサをカスタマイズし、OTRSの未処理のチケット数を教えてもらう方法を学べます。Lambdaを使うことでサーバーレスを実現しています!!料金も節約できます。詳しくはこのブログを見てね! → tech-lab.sios.jp/archives/8122 #Azure #駆け出しエンジニアと繋がりたい
 no image
 """
 
