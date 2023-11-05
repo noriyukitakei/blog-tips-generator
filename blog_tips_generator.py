@@ -238,8 +238,8 @@ no image
 
     try:
         # RSSフィードからすべての記事を取得する
-        random_feed_url = os.environ.get("BLOG_URL")
-        all_entries = get_all_entries(random_feed_url)
+        blog_url = os.environ.get("BLOG_URL")
+        all_entries = get_all_entries(blog_url)
 
         # ランダムな記事を取得する。もし環境変数SPECIFIC_ARTICLE_URLが設定されている場合は、そのURLの記事を取得する
         specific_article_url = os.environ.get("SPECIFIC_ARTICLE_URL")
@@ -262,10 +262,10 @@ no image
         logger.info(f"Image URL: {image_url}")
 
         # Twitter APIの認証
-        consumer_key = os.environ.get("CONSUMER_KEY")
-        consumer_secret = os.environ.get("CONSUMER_SECRET")
-        access_token = os.environ.get("ACCESS_TOKEN")
-        access_token_secret = os.environ.get("ACCESS_TOKEN_SECRET")
+        consumer_key = os.environ.get("X_CONSUMER_KEY")
+        consumer_secret = os.environ.get("X_CONSUMER_SECRET")
+        access_token = os.environ.get("X_ACCESS_TOKEN")
+        access_token_secret = os.environ.get("X_ACCESS_TOKEN_SECRET")
 
         auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
         auth.set_access_token(access_token, access_token_secret)
