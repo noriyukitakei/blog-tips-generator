@@ -214,7 +214,7 @@ tech-lab.sios.jp/archives/36497
 """
 
     FEW_SHOTS_ASSISTANT_01 = """
-AzureのApp Serviceは多機能でアプリの公開を簡単に行うことが可能。またスケールアップ・スケールアウトによる性能調整や、Azure Active Directoryとの認証統合なども可能。詳しくはこのブログを見てね! → tech-lab.sios.jp/archives/36497 #Azure #AppService
+AzureのApp Serviceは多機能でアプリの公開を簡単に行うことが可能。またスケールアップ・スケールアウトによる性能調整や、Azure AADとの認証統合なども可能。詳しくはこのブログを見てね! → tech-lab.sios.jp/archives/36497 #Azure #AppService
 https://tech-lab.sios.jp/wp-content/uploads/2021/06/Screen-Shot-2021-06-12-at-1.37.18.png
 """
 
@@ -232,7 +232,7 @@ tech-lab.sios.jp/archives/36497
 """
 
     FEW_SHOTS_ASSISTANT_02 = """
-アレクサをカスタマイズし、OTRSの未処理のチケット数を教えてもらう方法を学べます。アレクサスキルキットとAWS Lambdaを組み合わせて使うことで、毎度手動で確認する手間を省くことができます。詳しくはこのブログを見てね! → tech-lab.sios.jp/archives/8122 #Azure #駆け出しエンジニアと繋がりたい
+アレクサをカスタマイズし、OTRSの未処理のチケット数を教えてもらう方法を学べます。詳しくはこのブログを見てね! → tech-lab.sios.jp/archives/8122 #Azure #駆け出しエンジニアと繋がりたい
 no image
 """
 
